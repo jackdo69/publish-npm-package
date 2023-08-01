@@ -1,0 +1,25 @@
+{
+  "name": "@${YOUR_GITLAB_HANDLE}/test-package",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "@${YOUR_GITLAB_HANDLE}:registry": "https://gitlab.com/api/v4/projects/${YOUR_PROJECT_ID}/packages/npm/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/${YOUR_GITLAB_HANDLE}/test-package.git"
+  },
+  "author": "Jack Do",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/${YOUR_GITLAB_HANDLE}/test-package/issues"
+  },
+  "homepage": "https://gitlab.com/${YOUR_GITLAB_HANDLE}/test-package#readme"
+}

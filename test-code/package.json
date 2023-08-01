@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@${YOUR_GITLAB_HANDLE}/test-package": "^1.0.1"
+  }
+}
